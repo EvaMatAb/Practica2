@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class BoletinUD8_B1 {
-
+	//Hola caracola :)
 	public static void main(String[] args) {
 		File f = new File("./Documentos/numeros.txt");
 		
@@ -24,13 +24,13 @@ public class BoletinUD8_B1 {
 			
 			leer.close();
 			
-			System.out.println("Número máximo: " + max);
-			System.out.println("Número mínimo: " + min);
+			System.out.println("NÃºmero mÃ¡ximo: " + max);
+			System.out.println("NÃºmero mÃ­nimo: " + min);
 			
 		}catch(FileNotFoundException e) {
 			System.err.println("El archivo no existe.");
 		}catch(NumberFormatException e) {
-			System.err.println("Error. Elemento no numérico.");
+			System.err.println("Error. Elemento no numÃ©rico.");
 		}
 
 	}
